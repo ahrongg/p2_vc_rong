@@ -30,6 +30,7 @@ class MainApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             spacing: 8.0,
             children: [
+              //New comment here
               const Text('Login'),
               const TextField(
                 keyboardType: TextInputType.name,
@@ -52,7 +53,10 @@ class MainApp extends StatelessWidget {
                   ),
                     const ElevatedButton(
                         onPressed: null,
-                        child: Text("Register"))]
+                        child: Text("Register")),
+                    const ElevatedButton(
+                        onPressed: null,
+                        child: Text("Forgot password"))]
               )
             ],
           ),
